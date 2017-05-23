@@ -30,11 +30,7 @@ var nba = function() {
 
       result.push(score);
 
-      //result.push($(titles[i]).text());
-      //result.push($(titles2[i]).text());
-      //result.push($(titles2[i]).text());
-      //result.push($(titles5[i]).text());
-      //result.push($(titles6[i]).text());
+
       console.log(score);
     }
     fs.writeFileSync("nba.json", JSON.stringify(result));
