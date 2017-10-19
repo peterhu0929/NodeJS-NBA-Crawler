@@ -1,4 +1,4 @@
-10/19
+# 10/19
 Data Blocks/Relations
 Triggers "when"
 	 :CASH_LOAN_D.PRI_TTL_TERMS := cash_loan_utility.get_pay_times(:CASH_LOAN_D.PRI_FIRST_DATE ,:CASH_LOAN_D.PRI_LAST_DATE,:CASH_LOAN_D.PAY_PRI_TERM_U,:CASH_LOAN_D.PAY_PRI_TERM);
